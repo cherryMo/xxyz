@@ -1,0 +1,71 @@
+.x-title {
+    font-size: 20px;
+    color: #ff0000;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.x-subtitle {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+.x-attention {
+    font-size: 17px;
+    color: #ff0000;
+}
+
+.x-link {
+    margin: 12px 0;
+}
+
+.x-link a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.x-link .info {
+    font-size: 16px;
+    margin:0;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.img {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+@media screen and (min-width: 800px) {
+    #content {
+        width: 80%;
+        margin: 26px auto;
+    }
+}
+@media screen and (max-width: 800px) {
+    #content {
+        width: 100%;
+        padding: 10px 5px;
+    }
+}
+#content .box {
+    width: 100%;
+    background: #fff;
+    padding: 10px 5%;
+    margin: 10px auto;
+}
+#content .box .item{
+    margin: 28px 0;
+}
+
+#content hr {
+    border: 1px dashed #c1c1c1;
+}
+* {
+	word-wrap:break-word; 
+}
